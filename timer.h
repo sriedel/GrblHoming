@@ -10,7 +10,9 @@
 #ifndef TIMER_H
 #define TIMER_H
 
-#include <QTime>
+#include <QtCore/QtCore>
+class QTime;
+class Timer;
 
 class Timer : public QObject
 {

@@ -6,6 +6,7 @@
  * GPL License (see LICENSE file)
  * Software is provided AS-IS
  ****************************************************************/
+#include <QTime>
 #include "timer.h"
 Timer::Timer(QObject *parent) :
     QObject(parent), timing(false)
